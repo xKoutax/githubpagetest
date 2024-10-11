@@ -1,6 +1,7 @@
 <?php
-// Agregar la cabecera X-Content-Type-Options
+// Agregar las cabeceras de seguridad
 header("X-Content-Type-Options: nosniff");
+header("Content-Security-Policy: default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; frame-src 'self';");
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -310,7 +311,7 @@ header("X-Content-Type-Options: nosniff");
                     <textarea name="mensaje" placeholder="Mensaje" required></textarea>
                     <button type="submit">Enviar solicitud</button>
                 </form>
-                <a href="https://t.me/tuusuario" class="telegram-link" target="_blank">Ayuda inmediata por Telegram</a>
+                <a href="https://t.me/+SasvXcCwe_EyMzcx" class="telegram-link" target="_blank">Ayuda inmediata por Telegram</a>
             </div>
         </div>
 
@@ -325,7 +326,7 @@ header("X-Content-Type-Options: nosniff");
                     <input type="text" name="consulta" placeholder="Descripción de la consulta" required>
                     <button type="submit">Enviar solicitud</button>
                 </form>
-                <a href="https://t.me/tuusuario" class="telegram-link" target="_blank">Ayuda inmediata por Telegram</a>
+                <a href="https://t.me/+SasvXcCwe_EyMzcx" class="telegram-link" target="_blank">Ayuda inmediata por Telegram</a>
             </div>
         </div>
 
@@ -340,7 +341,7 @@ header("X-Content-Type-Options: nosniff");
                     <textarea name="mensaje" placeholder="Mensaje" required></textarea>
                     <button type="submit">Enviar solicitud</button>
                 </form>
-                <a href="https://t.me/tuusuario" class="telegram-link" target="_blank">Ayuda inmediata por Telegram</a>
+                <a href="https://t.me/+SasvXcCwe_EyMzcx" class="telegram-link" target="_blank">Ayuda inmediata por Telegram</a>
             </div>
         </div>
 
@@ -355,7 +356,7 @@ header("X-Content-Type-Options: nosniff");
                     <textarea name="mensaje" placeholder="Mensaje" required></textarea>
                     <button type="submit">Enviar solicitud</button>
                 </form>
-                <a href="https://t.me/tuusuario" class="telegram-link" target="_blank">Ayuda inmediata por Telegram</a>
+                <a href="https://t.me/+SasvXcCwe_EyMzcx" class="telegram-link" target="_blank">Ayuda inmediata por Telegram</a>
             </div>
         </div>
     </section>
